@@ -153,6 +153,10 @@ def main():
         window.fill(environment.bg_colour)
         environment.draw(window)
 
+        infected = environment.infected_count
+        total = len(environment.population)
+        print("Total infected: {}/{}".format(infected, total))
+
 
 
         pygame.display.flip()
