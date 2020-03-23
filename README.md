@@ -1,6 +1,8 @@
 # Viral Spread
 *Simulating the spread of an infectious disease using collisions of moving circles*
 
+*WP article for reference:* https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+
 ## viralspread.py
 Sprite movement calculated by a scalar speed and an angle of travel.
 
